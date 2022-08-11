@@ -1,16 +1,15 @@
 .btn {
+  display: inline-block;
   border-radius: 51px;
-  padding: 14px 65px 16px 40px;
+  padding: 14px 60px 16px 40px;
   min-width: 297px;
-  min-height: 55px;
   font-weight: 400;
   font-size: 20px;
   line-height: 125%;
-  text-align: center;
   color: var(--light-color);
   background-image: url("../img/btn-arrow-bg.svg");
   background-position: right 35px center;
-  background-size: 12px 9px;
+  background-size: 14px 11px;
   background-repeat: no-repeat;
   background-color: var(--pink-color);
 }

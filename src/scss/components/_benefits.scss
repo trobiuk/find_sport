@@ -1,0 +1,40 @@
+.benefits {
+  background-color: var(--blue-color);
+
+  &__title {
+    margin: 0;
+    margin-bottom: 70px;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 120%;
+    color: #fafafd;
+  }
+
+  &__list {
+    display: flex;
+  }
+
+  &__item {
+    @include mr(80px);
+
+    max-width: 240px;
+  }
+
+  &__digit {
+    margin-bottom: 16px;
+    font-weight: 900;
+    font-size: 100px;
+    line-height: 130%;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+    color: var(--light-color);
+  }
+
+  &__text {
+    margin: 0;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+    color: #f6f7fc;
+  }
+}

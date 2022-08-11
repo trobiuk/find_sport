@@ -1,0 +1,64 @@
+.about {
+  position: relative;
+  padding: 160px 0 146px;
+  background-image: url("../img/about-macbook.jpg");
+  background-position: top 250px left 90.2%;
+  background-repeat: no-repeat;
+  background-color: var(--light-color);
+
+  &::before {
+    content: "";
+    position: absolute;
+    left: 51.4%;
+    top: 160px;
+    width: 253px;
+    height: 472px;
+    background-image: url("../img/about-iphone.png");
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  &__inner {
+    max-width: 558px;
+  }
+
+  &__title {
+    margin: 0;
+    margin-bottom: 32px;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 120%;
+    color: var(--dark-color);
+
+    &-highlight {
+      display: block;
+      color: var(--pink-color);
+    }
+  }
+
+  &__list {
+    margin-bottom: 48px;
+  }
+
+  &__item {
+    @include mb(16px);
+
+    position: relative;
+    padding-left: 16px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+    color: var(--dark-color);
+
+    &::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 12px;
+      border-radius: 100%;
+      width: 4px;
+      height: 4px;
+      background-color: var(--blue-color);
+    }
+  }
+}
